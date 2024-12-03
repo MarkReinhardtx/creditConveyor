@@ -1,0 +1,650 @@
+2024-11-27 10:14:45.031  INFO 12108 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 12108 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 10:14:45.041  INFO 12108 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 10:14:47.356  INFO 12108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 10:14:47.367  INFO 12108 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 10:14:47.368  INFO 12108 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 10:14:47.538  INFO 12108 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 10:14:47.540  INFO 12108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2420 ms
+2024-11-27 10:14:47.874  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:14:47.901  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:14:48.506  INFO 12108 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 10:14:48.569  INFO 12108 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 10:14:48.764  INFO 12108 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 10:14:48.844  INFO 12108 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 10:14:48.997  INFO 12108 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 10:14:48.997  INFO 12108 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 10:14:48.997  INFO 12108 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 10:14:49.300  INFO 12108 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 10:14:49.327  INFO 12108 --- [main] Application          : Started Application in 5.077 seconds (JVM running for 5.918)
+2024-11-27 10:15:47.887  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:15:47.890  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:16:47.877  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:16:47.879  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:17:47.876  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:17:47.878  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:18:47.882  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:18:47.884  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:19:47.888  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:19:47.891  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:20:47.874  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:20:47.876  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:21:47.880  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:21:47.883  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:22:47.878  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:22:47.890  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:23:47.876  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:23:47.878  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:24:47.883  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:24:47.885  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:25:47.879  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:25:47.881  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:26:47.878  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:26:47.879  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:27:47.878  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:27:47.880  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:28:47.888  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:28:47.889  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:29:47.878  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:29:47.880  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:30:47.884  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:30:47.887  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:31:47.885  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:31:47.887  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:32:47.881  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:32:47.883  INFO 12108 --- [pool-3-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:33:20.432  INFO 12108 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 10:33:28.297  INFO 13408 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 13408 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 10:33:28.301  INFO 13408 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 10:33:30.455  INFO 13408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 10:33:30.475  INFO 13408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 10:33:30.476  INFO 13408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 10:33:30.704  INFO 13408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 10:33:30.704  INFO 13408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2318 ms
+2024-11-27 10:33:31.048  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:33:31.083  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:33:31.725  INFO 13408 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 10:33:31.774  INFO 13408 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 10:33:31.966  INFO 13408 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 10:33:32.026  INFO 13408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 10:33:32.124  INFO 13408 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 10:33:32.125  INFO 13408 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 10:33:32.125  INFO 13408 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 10:33:32.428  INFO 13408 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 10:33:32.448  INFO 13408 --- [main] Application          : Started Application in 4.882 seconds (JVM running for 5.644)
+2024-11-27 10:34:31.053  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:34:31.055  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:35:31.057  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:35:31.058  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:36:31.054  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:36:31.055  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:37:31.063  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:37:31.066  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:38:31.053  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:38:31.055  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:39:31.057  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:39:31.058  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:40:31.058  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:40:31.060  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:41:31.053  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:41:31.055  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:42:31.059  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:42:31.061  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:43:31.056  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:43:31.057  INFO 13408 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:43:37.391  INFO 13408 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 10:43:44.651  INFO 13708 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 13708 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 10:43:44.654  INFO 13708 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 10:43:46.615  INFO 13708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 10:43:46.634  INFO 13708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 10:43:46.634  INFO 13708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 10:43:46.810  INFO 13708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 10:43:46.810  INFO 13708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2070 ms
+2024-11-27 10:43:47.123  INFO 13708 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:43:47.147  INFO 13708 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:43:47.653  INFO 13708 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 10:43:47.705  INFO 13708 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 10:43:47.891  INFO 13708 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 10:43:47.949  INFO 13708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 10:43:48.052  INFO 13708 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 10:43:48.054  INFO 13708 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 10:43:48.054  INFO 13708 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 10:43:48.290  INFO 13708 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 10:43:48.314  INFO 13708 --- [main] Application          : Started Application in 4.212 seconds (JVM running for 4.897)
+2024-11-27 10:44:47.122  INFO 13708 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:44:47.124  INFO 13708 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:44:53.762  INFO 13708 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 10:44:58.094  INFO 19304 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 19304 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 10:44:58.100  INFO 19304 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 10:45:00.210  INFO 19304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 10:45:00.230  INFO 19304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 10:45:00.231  INFO 19304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 10:45:00.407  INFO 19304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 10:45:00.407  INFO 19304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2218 ms
+2024-11-27 10:45:00.730  INFO 19304 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:45:00.781  INFO 19304 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:45:01.354  INFO 19304 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 10:45:01.411  INFO 19304 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 10:45:01.642  INFO 19304 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 10:45:01.709  INFO 19304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 10:45:01.799  INFO 19304 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 10:45:01.800  INFO 19304 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 10:45:01.800  INFO 19304 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 10:45:02.028  INFO 19304 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 10:45:02.048  INFO 19304 --- [main] Application          : Started Application in 4.72 seconds (JVM running for 6.088)
+2024-11-27 10:45:50.352  INFO 19304 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 10:50:06.251  INFO 13424 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 13424 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 10:50:06.255  INFO 13424 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 10:50:08.315  INFO 13424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 10:50:08.334  INFO 13424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 10:50:08.335  INFO 13424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 10:50:08.541  INFO 13424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 10:50:08.542  INFO 13424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2202 ms
+2024-11-27 10:50:08.918  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:50:08.945  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:50:09.556  INFO 13424 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 10:50:09.617  INFO 13424 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 10:50:09.828  INFO 13424 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 10:50:09.901  INFO 13424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 10:50:10.018  INFO 13424 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 10:50:10.019  INFO 13424 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 10:50:10.019  INFO 13424 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 10:50:10.284  INFO 13424 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 10:50:10.305  INFO 13424 --- [main] Application          : Started Application in 4.626 seconds (JVM running for 5.303)
+2024-11-27 10:51:08.922  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:51:08.922  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:52:08.924  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:52:08.926  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:53:08.925  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:53:08.927  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:54:08.920  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:54:08.923  INFO 13424 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:54:44.325  INFO 13424 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 10:54:52.557  INFO 15076 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 15076 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 10:54:52.561  INFO 15076 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 10:54:54.560  INFO 15076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 10:54:54.572  INFO 15076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 10:54:54.573  INFO 15076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 10:54:54.744  INFO 15076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 10:54:54.745  INFO 15076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2101 ms
+2024-11-27 10:54:55.064  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:54:55.091  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:54:55.600  INFO 15076 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 10:54:55.654  INFO 15076 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 10:54:55.844  INFO 15076 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 10:54:55.902  INFO 15076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 10:54:56.001  INFO 15076 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 10:54:56.002  INFO 15076 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 10:54:56.002  INFO 15076 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 10:54:56.262  INFO 15076 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 10:54:56.282  INFO 15076 --- [main] Application          : Started Application in 4.302 seconds (JVM running for 4.916)
+2024-11-27 10:55:55.075  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:55:55.076  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:56:55.071  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:56:55.073  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:57:55.065  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:57:55.067  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:58:55.075  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:58:55.077  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:59:55.075  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 10:59:55.076  INFO 15076 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 10:59:56.350  INFO 15076 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 11:00:04.207  INFO 17512 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 17512 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 11:00:04.211  INFO 17512 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 11:00:06.593  INFO 17512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 11:00:06.611  INFO 17512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 11:00:06.612  INFO 17512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 11:00:06.795  INFO 17512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 11:00:06.796  INFO 17512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2494 ms
+2024-11-27 11:00:07.103  INFO 17512 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:00:07.134  INFO 17512 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:00:07.678  INFO 17512 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 11:00:07.734  INFO 17512 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 11:00:07.923  INFO 17512 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 11:00:07.981  INFO 17512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 11:00:08.074  INFO 17512 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 11:00:08.074  INFO 17512 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 11:00:08.074  INFO 17512 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 11:00:08.323  INFO 17512 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 11:00:08.351  INFO 17512 --- [main] Application          : Started Application in 4.71 seconds (JVM running for 5.465)
+2024-11-27 11:01:07.105  INFO 17512 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:01:07.106  INFO 17512 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:02:07.115  INFO 17512 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:02:07.117  INFO 17512 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:02:59.704  INFO 17512 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 11:03:06.976  INFO 7952 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 7952 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 11:03:06.980  INFO 7952 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 11:03:09.001  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 11:03:09.014  INFO 7952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 11:03:09.015  INFO 7952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 11:03:09.177  INFO 7952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 11:03:09.178  INFO 7952 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2118 ms
+2024-11-27 11:03:09.530  INFO 7952 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:03:09.559  INFO 7952 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:03:10.140  INFO 7952 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 11:03:10.203  INFO 7952 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 11:03:10.409  INFO 7952 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 11:03:10.481  INFO 7952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 11:03:10.717  INFO 7952 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 11:03:10.719  INFO 7952 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 11:03:10.720  INFO 7952 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 11:03:11.076  INFO 7952 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 11:03:11.109  INFO 7952 --- [main] Application          : Started Application in 4.696 seconds (JVM running for 5.317)
+2024-11-27 11:03:39.350  INFO 7952 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 11:07:10.241  INFO 2112 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 2112 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 11:07:10.244  INFO 2112 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 11:07:12.293  INFO 2112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 11:07:12.312  INFO 2112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 11:07:12.313  INFO 2112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 11:07:12.482  INFO 2112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 11:07:12.482  INFO 2112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2157 ms
+2024-11-27 11:07:12.807  INFO 2112 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:07:12.832  INFO 2112 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:07:13.369  INFO 2112 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 11:07:13.426  INFO 2112 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 11:07:13.641  INFO 2112 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 11:07:13.706  INFO 2112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 11:07:13.823  INFO 2112 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 11:07:13.824  INFO 2112 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 11:07:13.824  INFO 2112 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 11:07:14.073  INFO 2112 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 11:07:14.095  INFO 2112 --- [main] Application          : Started Application in 4.434 seconds (JVM running for 5.03)
+2024-11-27 11:08:08.130  INFO 2112 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 11:08:15.789  INFO 20348 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 20348 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 11:08:15.794  INFO 20348 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 11:08:17.786  INFO 20348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 11:08:17.801  INFO 20348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 11:08:17.802  INFO 20348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 11:08:17.977  INFO 20348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 11:08:17.978  INFO 20348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2101 ms
+2024-11-27 11:08:18.289  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:08:18.316  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:08:18.812  INFO 20348 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 11:08:18.861  INFO 20348 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 11:08:19.040  INFO 20348 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 11:08:19.098  INFO 20348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 11:08:19.199  INFO 20348 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 11:08:19.199  INFO 20348 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 11:08:19.200  INFO 20348 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 11:08:19.459  INFO 20348 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 11:08:19.481  INFO 20348 --- [main] Application          : Started Application in 4.273 seconds (JVM running for 4.868)
+2024-11-27 11:09:18.291  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:09:18.294  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:10:18.290  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:10:18.292  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:11:18.297  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:11:18.299  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:12:18.290  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:12:18.291  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:13:18.292  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:13:18.294  INFO 20348 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:13:54.895  INFO 20348 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 11:14:02.916  INFO 17744 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 17744 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 11:14:02.919  INFO 17744 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 11:14:04.915  INFO 17744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 11:14:04.939  INFO 17744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 11:14:04.940  INFO 17744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 11:14:05.100  INFO 17744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 11:14:05.100  INFO 17744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2104 ms
+2024-11-27 11:14:05.419  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:14:05.457  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:14:05.996  INFO 17744 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 11:14:06.048  INFO 17744 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 11:14:06.237  INFO 17744 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 11:14:06.294  INFO 17744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 11:14:06.396  INFO 17744 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 11:14:06.397  INFO 17744 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 11:14:06.397  INFO 17744 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 11:14:06.670  INFO 17744 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 11:14:06.692  INFO 17744 --- [main] Application          : Started Application in 4.425 seconds (JVM running for 5.616)
+2024-11-27 11:15:05.426  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:15:05.428  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:16:05.428  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:16:05.429  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:17:05.419  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:17:05.422  INFO 17744 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:17:48.414  INFO 17744 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 11:17:56.573  INFO 1876 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 1876 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 11:17:56.577  INFO 1876 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 11:17:58.562  INFO 1876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 11:17:58.581  INFO 1876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 11:17:58.581  INFO 1876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 11:17:58.743  INFO 1876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 11:17:58.743  INFO 1876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2081 ms
+2024-11-27 11:17:59.056  INFO 1876 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 11:17:59.085  INFO 1876 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 11:17:59.684  INFO 1876 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 11:17:59.742  INFO 1876 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 11:17:59.943  INFO 1876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 11:18:00.007  INFO 1876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 11:18:00.102  INFO 1876 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 11:18:00.102  INFO 1876 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 11:18:00.103  INFO 1876 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 11:18:00.332  INFO 1876 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 11:18:00.352  INFO 1876 --- [main] Application          : Started Application in 4.343 seconds (JVM running for 4.973)
+2024-11-27 11:18:08.117  INFO 1876 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 15:47:55.802  INFO 4736 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 4736 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 15:47:55.807  INFO 4736 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:47:58.028  INFO 4736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 15:47:58.047  INFO 4736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 15:47:58.047  INFO 4736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 15:47:58.239  INFO 4736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 15:47:58.239  INFO 4736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2338 ms
+2024-11-27 15:47:58.658  INFO 4736 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:47:58.686  INFO 4736 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:47:59.319  INFO 4736 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 15:47:59.383  INFO 4736 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 15:47:59.605  INFO 4736 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 15:47:59.679  INFO 4736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 15:47:59.803  INFO 4736 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 15:47:59.803  INFO 4736 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 15:47:59.803  INFO 4736 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 15:48:00.116  INFO 4736 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 15:48:00.136  INFO 4736 --- [main] Application          : Started Application in 4.983 seconds (JVM running for 5.668)
+2024-11-27 15:48:58.253  INFO 4736 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 15:49:04.992  INFO 5964 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 5964 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 15:49:04.996  INFO 5964 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:49:07.142  INFO 5964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 15:49:07.153  INFO 5964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 15:49:07.153  INFO 5964 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 15:49:07.325  INFO 5964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 15:49:07.325  INFO 5964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2247 ms
+2024-11-27 15:49:07.659  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:49:07.699  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:49:08.317  INFO 5964 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 15:49:08.371  INFO 5964 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 15:49:08.569  INFO 5964 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 15:49:08.628  INFO 5964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 15:49:08.778  INFO 5964 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 15:49:08.779  INFO 5964 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 15:49:08.779  INFO 5964 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 15:49:09.079  INFO 5964 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 15:49:09.116  INFO 5964 --- [main] Application          : Started Application in 4.713 seconds (JVM running for 5.379)
+2024-11-27 15:50:07.672  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:50:07.673  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:51:07.663  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:51:07.663  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:52:07.667  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:52:07.668  INFO 5964 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:52:58.585  INFO 5964 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 15:53:06.074  INFO 6684 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 6684 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 15:53:06.077  INFO 6684 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:53:08.276  INFO 6684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 15:53:08.289  INFO 6684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 15:53:08.289  INFO 6684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 15:53:08.477  INFO 6684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 15:53:08.478  INFO 6684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2317 ms
+2024-11-27 15:53:08.820  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:53:08.859 ERROR 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Error while watching file: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.asInt()" because the return value of "com.fasterxml.jackson.databind.JsonNode.get(String)" is null
+2024-11-27 15:53:09.461  INFO 6684 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 15:53:09.532  INFO 6684 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 15:53:09.776  INFO 6684 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 15:53:09.856  INFO 6684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 15:53:09.984  INFO 6684 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 15:53:09.985  INFO 6684 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 15:53:09.985  INFO 6684 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 15:53:10.297  INFO 6684 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 15:53:10.318  INFO 6684 --- [main] Application          : Started Application in 4.868 seconds (JVM running for 5.534)
+2024-11-27 15:53:15.508 ERROR 6684 --- [grpc-default-executor-0] io.grpc.internal.SerializingExecutor     : Exception while executing runnable io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed@211adc83
+
+java.lang.NullPointerException: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.asInt()" because the return value of "com.fasterxml.jackson.databind.JsonNode.get(String)" is null
+	at ru.mtsbank.mocktest.ResponseTimes.loadResponseTimes(ResponseTimes.java:67) ~[classes/:na]
+	at ru.mtsbank.mocktest.DepositGrpc.postAccInfoBp(DepositGrpc.java:1271) ~[classes/:na]
+	at deposit_proto.DepositServiceGrpc$MethodHandlers.invoke(DepositServiceGrpc.java:2810) ~[classes/:na]
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182) ~[grpc-stub-1.55.1.jar:1.55.1]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.PartialForwardingServerCallListener.onHalfClose(PartialForwardingServerCallListener.java:35) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.ForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:23) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.ForwardingServerCallListener$SimpleForwardingServerCallListener.onHalfClose(ForwardingServerCallListener.java:40) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.Contexts$ContextualizedServerCallListener.onHalfClose(Contexts.java:86) ~[grpc-api-1.55.1.jar:1.55.1]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:346) ~[grpc-core-1.55.1.jar:1.55.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:860) ~[grpc-core-1.55.1.jar:1.55.1]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[grpc-core-1.55.1.jar:1.55.1]
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[grpc-core-1.55.1.jar:1.55.1]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-11-27 15:54:08.825  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:54:08.827  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:55:08.825  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:55:08.827  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:56:08.830  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:56:08.832  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:57:08.829  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:57:08.831  INFO 6684 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:57:19.076  INFO 6684 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 15:57:26.236  INFO 16888 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 16888 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 15:57:26.240  INFO 16888 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:57:28.322  INFO 16888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 15:57:28.338  INFO 16888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 15:57:28.339  INFO 16888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 15:57:28.527  INFO 16888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 15:57:28.528  INFO 16888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2196 ms
+2024-11-27 15:57:28.857  INFO 16888 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 15:57:28.898  INFO 16888 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 15:57:29.475  INFO 16888 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 15:57:29.540  INFO 16888 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 15:57:29.753  INFO 16888 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 15:57:29.818  INFO 16888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 15:57:29.937  INFO 16888 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 15:57:29.938  INFO 16888 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 15:57:29.938  INFO 16888 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 15:57:30.244  INFO 16888 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 15:57:30.264  INFO 16888 --- [main] Application          : Started Application in 4.633 seconds (JVM running for 5.333)
+2024-11-27 15:58:08.915  INFO 16888 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 18:32:19.112  INFO 17040 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 17040 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 18:32:19.118  INFO 17040 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 18:32:21.601  INFO 17040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 18:32:21.614  INFO 17040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 18:32:21.615  INFO 17040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 18:32:21.790  INFO 17040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 18:32:21.791  INFO 17040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2555 ms
+2024-11-27 18:32:22.157  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:32:22.188  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:32:22.844  INFO 17040 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 18:32:22.913  INFO 17040 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 18:32:23.105  INFO 17040 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 18:32:23.166  INFO 17040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 18:32:23.268  INFO 17040 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 18:32:23.269  INFO 17040 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 18:32:23.269  INFO 17040 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 18:32:23.558  INFO 17040 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 18:32:23.578  INFO 17040 --- [main] Application          : Started Application in 5.122 seconds (JVM running for 5.809)
+2024-11-27 18:33:22.165  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:33:22.166  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:34:22.171  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:34:22.172  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:35:22.169  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:35:22.170  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:36:22.165  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:36:22.167  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:37:22.167  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:37:22.168  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:38:22.172  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:38:22.174  INFO 17040 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:38:45.335  INFO 17040 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 18:38:52.723  INFO 1668 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 1668 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 18:38:52.728  INFO 1668 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 18:38:54.739  INFO 1668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 18:38:54.752  INFO 1668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 18:38:54.753  INFO 1668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 18:38:54.933  INFO 1668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 18:38:54.934  INFO 1668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2112 ms
+2024-11-27 18:38:55.249  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:38:55.276  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:38:55.817  INFO 1668 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 18:38:55.875  INFO 1668 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 18:38:56.072  INFO 1668 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 18:38:56.145  INFO 1668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 18:38:56.250  INFO 1668 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 18:38:56.250  INFO 1668 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 18:38:56.251  INFO 1668 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 18:38:56.491  INFO 1668 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 18:38:56.509  INFO 1668 --- [main] Application          : Started Application in 4.338 seconds (JVM running for 4.971)
+2024-11-27 18:39:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:39:55.266  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:40:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:40:55.257  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:41:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:41:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:42:55.255  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:42:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:43:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:43:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:44:55.255  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:44:55.257  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:45:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:45:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:46:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:46:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:47:55.259  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:47:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:48:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:48:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:49:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:49:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:50:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:50:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:51:55.251  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:51:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:52:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:52:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:53:55.250  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:53:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:54:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:54:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:55:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:55:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:56:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:56:55.264  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:57:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:57:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:58:55.251  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:58:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 18:59:55.259  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 18:59:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:00:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:00:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:01:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:01:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:02:55.255  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:02:55.257  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:03:55.255  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:03:55.257  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:04:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:04:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:05:55.259  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:05:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:06:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:06:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:07:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:07:55.260  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:08:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:08:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:09:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:09:55.265  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:10:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:10:55.259  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:11:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:11:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:12:55.251  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:12:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:13:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:13:55.254  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:14:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:14:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:15:55.255  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:15:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:16:55.264  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:16:55.266  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:17:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:17:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:18:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:18:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:19:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:19:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:20:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:20:55.254  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:21:55.251  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:21:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:22:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:22:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:23:55.252  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:23:55.254  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:24:55.251  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:24:55.253  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:25:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:25:55.265  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:26:55.256  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:26:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:27:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:27:55.265  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:28:55.261  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:28:55.262  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:29:55.257  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:29:55.258  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:30:55.249  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:30:55.251  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:31:55.264  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:31:55.266  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:32:55.257  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:32:55.259  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:33:55.263  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 19:33:55.265  INFO 1668 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 19:34:42.851  INFO 1668 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 23:41:26.280  INFO 852 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 852 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 23:41:26.283  INFO 852 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 23:41:28.499  INFO 852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 23:41:28.515  INFO 852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 23:41:28.516  INFO 852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 23:41:28.724  INFO 852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 23:41:28.724  INFO 852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2350 ms
+2024-11-27 23:41:29.152  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:41:29.184  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:41:29.853  INFO 852 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 23:41:29.910  INFO 852 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 23:41:30.100  INFO 852 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 23:41:30.162  INFO 852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 23:41:30.265  INFO 852 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 23:41:30.266  INFO 852 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 23:41:30.266  INFO 852 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 23:41:30.512  INFO 852 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 23:41:30.536  INFO 852 --- [main] Application          : Started Application in 4.823 seconds (JVM running for 5.488)
+2024-11-27 23:42:29.155  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:42:29.157  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:43:29.155  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:43:29.157  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:44:29.163  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:44:29.164  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:45:29.160  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:45:29.161  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:46:29.153  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:46:29.156  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:47:29.159  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:47:29.162  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:48:29.161  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:48:29.163  INFO 852 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:48:45.030  INFO 852 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2024-11-27 23:48:52.732  INFO 11096 --- [main] Application          : Starting Application using Java 17.0.12 on NB64-278 with PID 11096 (C:\Users\sbonar\Videos\gRPCMockDeposit\target\classes started by sbonar in C:\Users\sbonar\Videos\gRPCMockDeposit)
+2024-11-27 23:48:52.738  INFO 11096 --- [main] Application          : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 23:48:54.835  INFO 11096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 30001 (http)
+2024-11-27 23:48:54.858  INFO 11096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27 23:48:54.859  INFO 11096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-11-27 23:48:55.022  INFO 11096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-27 23:48:55.023  INFO 11096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2201 ms
+2024-11-27 23:48:55.349  INFO 11096 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:48:55.386  INFO 11096 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:48:55.899  INFO 11096 --- [main] g.s.a.GrpcServerFactoryAutoConfiguration : Detected grpc-netty-shaded: Creating ShadedNettyGrpcServerFactory
+2024-11-27 23:48:55.959  INFO 11096 --- [main] n.d.b.g.c.a.GrpcClientAutoConfiguration  : Detected grpc-netty-shaded: Creating ShadedNettyChannelFactory + InProcessChannelFactory
+2024-11-27 23:48:56.166  INFO 11096 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-11-27 23:48:56.228  INFO 11096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 30001 (http) with context path ''
+2024-11-27 23:48:56.333  INFO 11096 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: deposit_proto.DepositService, bean: depositGrpc, class: ru.mtsbank.mocktest.DepositGrpc
+2024-11-27 23:48:56.334  INFO 11096 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.health.v1.Health, bean: grpcHealthService, class: io.grpc.protobuf.services.HealthServiceImpl
+2024-11-27 23:48:56.334  INFO 11096 --- [main] n.d.b.g.s.s.AbstractGrpcServerFactory    : Registered gRPC service: grpc.reflection.v1alpha.ServerReflection, bean: protoReflectionService, class: io.grpc.protobuf.services.ProtoReflectionService
+2024-11-27 23:48:56.574  INFO 11096 --- [main] n.d.b.g.s.s.GrpcServerLifecycle          : gRPC Server started, listening on address: *, port: 30015
+2024-11-27 23:48:56.594  INFO 11096 --- [main] Application          : Started Application in 4.407 seconds (JVM running for 5.081)
+2024-11-27 23:49:55.363  INFO 11096 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Checking for updates in rt.json...
+2024-11-27 23:49:55.365  INFO 11096 --- [pool-2-thread-1] ru.mtsbank.mocktest.ResponseTimes        : Updated response times from rt.json
+2024-11-27 23:50:45.023  INFO 11096 --- [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
